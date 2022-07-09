@@ -12,7 +12,7 @@ struct TodoDetailView: View {
     @Binding var todo: Todo
     
     var body: some View {
-        VStack {
+        Form {
             TextField("enter a title", text: $todo.title)
                 .textFieldStyle(.roundedBorder)
                 .padding()
@@ -35,6 +35,6 @@ struct TodoDetailView: View {
 
 struct TodoDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        TodoDetailView(todo: .constant(Todo(title: "not get hot choco")))
+        TodoDetailView(todo: .constant(Todo(title: "sasa")))
     }
 }

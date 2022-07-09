@@ -15,6 +15,7 @@
 		209A0DA7286FEA9A0067D586 /* TodoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A0DA6286FEA9A0067D586 /* TodoDetailView.swift */; };
 		209A0DA9286FF3560067D586 /* NewTodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A0DA8286FF3560067D586 /* NewTodoView.swift */; };
 		209A0DAB286FFAF20067D586 /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209A0DAA286FFAF20067D586 /* TodoManager.swift */; };
+		20FC50E028791F5C00206359 /* MainTodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FC50DF28791F5C00206359 /* MainTodoListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		209A0DA6286FEA9A0067D586 /* TodoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailView.swift; sourceTree = "<group>"; };
 		209A0DA8286FF3560067D586 /* NewTodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTodoView.swift; sourceTree = "<group>"; };
 		209A0DAA286FFAF20067D586 /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		20FC50DF28791F5C00206359 /* MainTodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTodoListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				209A0D96286FD1BD0067D586 /* todoistApp.swift */,
 				209A0D98286FD1BD0067D586 /* ContentView.swift */,
+				20FC50DF28791F5C00206359 /* MainTodoListView.swift */,
 				209A0DA8286FF3560067D586 /* NewTodoView.swift */,
 				209A0DA6286FEA9A0067D586 /* TodoDetailView.swift */,
 				209A0DA4286FD27D0067D586 /* Todo.swift */,
@@ -153,6 +156,7 @@
 				209A0DAB286FFAF20067D586 /* TodoManager.swift in Sources */,
 				209A0DA5286FD27D0067D586 /* Todo.swift in Sources */,
 				209A0D97286FD1BD0067D586 /* todoistApp.swift in Sources */,
+				20FC50E028791F5C00206359 /* MainTodoListView.swift in Sources */,
 				209A0DA9286FF3560067D586 /* NewTodoView.swift in Sources */,
 				209A0DA7286FEA9A0067D586 /* TodoDetailView.swift in Sources */,
 			);
